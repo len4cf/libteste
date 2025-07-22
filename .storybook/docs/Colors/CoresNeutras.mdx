@@ -1,0 +1,33 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/blocks";
+
+<Meta title="Docs/Cores/Cores neutras" />
+
+## Cores Neutras
+
+#### As variações de cinza são cores neutras, que servem como sustentação para o restante do layout. Os cinzas mais claros são aplicados em fundos de tela para facilitar a leitura. Atente ao contexto e ao seu uso. Evite a utilização do preto 100% (Base color) em textos, pois essa é uma cor dominante, que chama mais atenção que as outras. Priorize o cinza, que reduz o cansaço visual.
+
+Usos comuns:
+
+-   Botões, campos de texto, tags e inputs;
+-   Hover, desativados e sombras.
+
+<ColorPalette>
+    <ColorItem
+        title="Dark"
+        colors={{
+            "--color-base-dark-pure": "#000000",
+            "--color-base-dark-01": "#1A1A1A",
+            "--color-base-dark-02": "#404040",
+            "--color-base-dark-03": "#787878",
+        }}
+    />
+    <ColorItem
+        title="Light"
+        colors={{
+            "--color-base-light-pure": "#FFFFFF",
+            "--color-base-light-01": "#FAFAFA",
+            "--color-base-light-02": "#F0F2F2",
+            "--color-base-light-03": "#E4E4E4",
+        }}
+    />
+</ColorPalette>

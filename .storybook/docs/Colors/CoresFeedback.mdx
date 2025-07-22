@@ -1,0 +1,61 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/blocks";
+
+<Meta title="Docs/Cores/Cores de feedback" />
+
+## Cores de feedback
+
+#### As cores de status são utilizadas para reforçar visualmente o resultado de uma ação. Sendo assim, podemos classificar seu uso como terciário.
+
+<br />
+
+<ColorPalette>
+    <ColorItem
+        title="Success"
+        subtitle={
+            <>
+            <p>• Mensagens de sucesso ou de conclusão</p>
+            <p>• Feedbacks positivos em geral</p>
+            </>
+        }
+        colors={{
+            "--color-feedback-success-pure": "#7EE543",
+            "--color-feedback-success-lightest": "#EAFFD9",
+            "--color-feedback-success-light": "#B3FF76",
+            "--color-feedback-success-dark": "#4BB218",
+            "--color-feedback-success-darkest": "#1A5903",
+        }}
+    />
+     <ColorItem
+        title="Alert"
+        subtitle={
+            <>
+            <p>• Mensagens de alerta e atenção da pessoa usuária</p>
+            <p>• Feedbacks de alerta em geral.</p>
+            </>
+        }
+        colors={{
+            "--color-feedback-alert-pure": "#FFD600",
+            "--color-feedback-alert-lightest": "#FFFDD9",
+            "--color-feedback-alert-light": "#FFF662",
+            "--color-feedback-alert-dark": "#FAAD14",
+            "--color-feedback-alert-darkest": "#D48806",
+        }}
+    />
+     <ColorItem
+        title="Warning"
+        subtitle={
+            <>
+            <p>• Mensagens de erro</p>
+            <p>• Feedbacks negativos em geral.</p>
+            </>
+        }
+        colors={{
+            "--color-feedback-warning-pure": "#E5000C",
+            "--color-feedback-warning-lightest": "#FFE0E0",
+            "--color-feedback-warning-light": "#FF5757",
+            "--color-feedback-warning-dark": "#A8071A",
+            "--color-feedback-warning-darkest": "#660410",
+        }}
+    />
+
+</ColorPalette>
