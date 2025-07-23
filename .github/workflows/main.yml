@@ -17,6 +17,8 @@ jobs:
           node-version: 18 # ou a versão desejada
           registry-url: https://npm.pkg.github.com/
           scope: '@len4cf'
+          always-auth: true
+
 
       - run: npm install
 
