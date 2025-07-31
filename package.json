@@ -1,11 +1,11 @@
 {
-    "name": "@len4cf/libteste",
-    "version": "1.0.3",
+    "name": "@pucpr-tecnologias-educacionais/design-system",
+    "version": "1.0.0",
     "description": "",
     "author": "len4cf",
     "license": "MIT",
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/@len4cf"
+        "registry": "https://pkgs.dev.azure.com/grupomaristapr/PUCPR-Tecnologias_Educacionais/_packaging/PUCPR-Tecnologias_Educacionais/npm/registry/"
     },
     "main": "dist/index.cjs.js",
     "module": "dist/index.es.js",
